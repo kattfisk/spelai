@@ -1,16 +1,8 @@
---- Problem ---
--testa användning av ANN
--lista ut hur du stoppar in värden
--lista ut hur du får ut värden
---get strongest output neuron id
--implementera backprop
- -derivative bool
- -double mean square error(res, target)
--implementera random_weight
--implementera sigmoid
+-- Todo --
+Kom på ett bra problem att lösa med nätverket
 
---- Tips ---
-Problem: Vi vill få ut värden som inte är mellan noll och ett. Kanske bäst att göra en binäradderare? Eller använda linjära noder på något sätt. Kanske begränsa input till ett visst omfång
+-- Tips ---
+Problem: Vi vill få ut värden som inte är mellan noll och ett. 
 Varje nod förutom de i input har en egen bias-nod som är antingen 1 eller -1, spelar ingen roll
 Vikter är mellan -1 och 1
 Så få output som möjligt
