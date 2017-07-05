@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inlupp", "inlupp1_1.vcxproj", "{BDD1179F-843C-4CE0-BD4F-E080FF10FBEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D4C59C9-6680-49E4-8C10-2473D5B25E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD1179F-843C-4CE0-BD4F-E080FF10FBEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDD1179F-843C-4CE0-BD4F-E080FF10FBEB}.Debug|Win32.Build.0 = Debug|Win32
+		{BDD1179F-843C-4CE0-BD4F-E080FF10FBEB}.Release|Win32.ActiveCfg = Release|Win32
+		{BDD1179F-843C-4CE0-BD4F-E080FF10FBEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

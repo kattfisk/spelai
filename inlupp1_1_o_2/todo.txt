@@ -1,0 +1,60 @@
+MS-konto
+asdfrhjiher34@mailinator.com
+sldjk9psu389u4t0hjW
+--------------
+
+--- Solver ---
+
+-Progress display
+-Break into abstract base
+-What happens if there's no goal?
+-A*
+ -Implement heuristic
+ -Use heuristic
+IDF
+Report
+
+
+--- Creator ---
+
+----- Fitness -----
+Lösliga:
+Antal steg att lösa i förhållande till teoretiskt max. Vad är teoretiskt max?
+
+Olösliga:
+Kolla närmaste tile avstånd till mål, i förhållande till teoretiskt min och max. Bästa möjliga avstånd är 1 (OBS inte 0, pga jobbigt och att 1 ändå inte kan hända)
+
+obs: DIVIDERA INTE MED 0!
+1/x - 1/MAX
+MAX/MAX*x - x/MAX*x = (MAX - x) / MAX*x
+
+
+Sammanlagd fitness blir:
+( steps/max_steps + 
+(max_distance - distance_to_goal) / (max_distance * distance_to_goal) )
+/ 2
+Vi använder båda samtidigt på detta sätt för att eliminera risken för lokalt maxim i övergången.
+
+OBS: De genererade labyrinternas utformning beror helt på sökalgo. BFS kommer ge tråkig lång väg, DFS oklart, A* ger nog mer spännande. Överväg att skapa en "gående"-sökalgo (har det ett bra namn?)
+
+TODO:
+-Skapa generator som tar storlek, och binär sträng och genererar labyrint. Med väggar och fördefinierat start och mål
+0=golv, 1=vägg
+Ex. 
+00101100 ger
+#######
+#S0010#
+#1100G#
+#######
+
+-Fixa todo i main
+-Lägg in genetikbibliotek
+-Position.distance_to()
+-Solver returnerar distance_to_goal. solved=false för olösliga
+-Skapa MazeEvolver(start_pos, goal_pos, width, height, Solver* evaluator)
+-Evolve(int generations)
+-Vad ska vi jämnföra steps_to_solve med? Vad finns det för teoretiskt max?
+-evaluate()
+-importera allt i samma projekt
+-ta bort alla relativa sökvägar
+-använd evolver

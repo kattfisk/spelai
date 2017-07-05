@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{a097f208-00e6-4c0f-8b81-97349c44b70a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeEvolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Debug\DBGDebug.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Debug\DBGHandler.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Debug\DBGManager.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Debug\DBGMessage.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALCombinator.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALEvaluator.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALEvolutionaryAlgorithm.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALEvolver.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALGene.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALGenome.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALIndividual.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALMutator.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALPopulation.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\EvolutionaryAlgorithm\EALSelector.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Notification\NFNNotification.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Random\RNDGenerator.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Random\RNDRandom.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Random\RNDRandomizer.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Random\RNDSeeder.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="ScratchSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Maze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeEvolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+-Fixa SFML
+
+-grundklass för state
+
+Ett state som ritar något
+
+Main loop
+	mState.update()
+	mState.draw() (fall through optional)
+
+State som interagerar med mus
+
+Annat state som det byter över till och som kan döda sig
+
+
+---
+Riktiga states
